@@ -49,6 +49,8 @@
     <Compile Include="CreationalPatterns\FactoryMethodPattern.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPatternExample.cs" />
     <Compile Include="CreationalPatterns\Singleton.cs" />
+    <Compile Include="CreationalPatterns\SingletonLazy.cs" />
+    <Compile Include="CreationalPatterns\SingletonLazyRealization.cs" />
     <Compile Include="CreationalPatterns\SingletonLock.cs" />
     <Compile Include="CreationalPatterns\SingletonPatternExample.cs" />
     <Compile Include="CreationalPatterns\SingletonThreads.cs" />

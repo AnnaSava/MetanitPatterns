@@ -33,6 +33,14 @@ namespace MetanitPatterns
                         SingletonLock.Display();
                         SingletonThreads.Display();
                         break;
+                    case 'l':
+                        SingletonStaticFields.Display();
+                        SingletonNestedClass.Display();
+                        SingletonNestedLazy.Display();
+                        break;
+                    case 'z':
+                        SingletonLazy.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -45,6 +53,8 @@ namespace MetanitPatterns
             Console.WriteLine("F - фабричный метод");
             Console.WriteLine("A - абстрактрая фабрика");
             Console.WriteLine("S - синглтон");
+            Console.WriteLine("L - Lazy-реализация синглтона");
+            Console.WriteLine("Z - реализация через класс Lazy<T>");
         }
     }
 }
