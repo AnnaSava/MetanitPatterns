@@ -46,6 +46,8 @@
     <Compile Include="CreationalPatternsDemo.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPatternExample.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPattern.cs" />
+    <Compile Include="CreationalPatterns\BuilderPattern.cs" />
+    <Compile Include="CreationalPatterns\BuilderPatternExample.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPattern.cs" />
     <Compile Include="CreationalPatterns\FactoryMethodPatternExample.cs" />
     <Compile Include="CreationalPatterns\PrototypePattern.cs" />

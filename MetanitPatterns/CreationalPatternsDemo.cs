@@ -45,6 +45,9 @@ namespace MetanitPatterns
                         PrototypePatternExample.Display();
                         PrototypePatternExampleComplex.Display();
                         break;
+                    case 'b':
+                        BuilderPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -60,6 +63,7 @@ namespace MetanitPatterns
             Console.WriteLine("L - Lazy-реализация синглтона");
             Console.WriteLine("Z - реализация через класс Lazy<T>");
             Console.WriteLine("P - прототип");
+            Console.WriteLine("B - строитель");
         }
     }
 }
