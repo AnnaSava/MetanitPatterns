@@ -43,6 +43,7 @@ namespace MetanitPatterns
                         break;
                     case 'p':
                         PrototypePatternExample.Display();
+                        PrototypePatternExampleComplex.Display();
                         break;
                     case 'x': return;
                 }
