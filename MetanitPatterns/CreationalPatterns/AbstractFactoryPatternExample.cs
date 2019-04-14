@@ -8,7 +8,7 @@ namespace MetanitPatterns.CreationalPatterns
 {
     public static class AbstractFactoryPatternExample
     {
-        public static void Run()
+        public static void Display()
         {
             Hero elf = new Hero(new ElfFactory());
             elf.Hit();

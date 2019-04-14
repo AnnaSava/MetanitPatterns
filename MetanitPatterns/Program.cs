@@ -22,11 +22,8 @@ namespace MetanitPatterns
                 Console.WriteLine();
                 switch (key)
                 {
-                    case 'f':
-                        FactoryMethodPatternExample.Run();
-                        break;
-                    case 'a':
-                        AbstractFactoryPatternExample.Run();
+                    case 'c':
+                        CreationalPatternsDemo.Run();
                         break;
                 }
             }
@@ -35,8 +32,7 @@ namespace MetanitPatterns
         static void printMenu()
         {
             Console.WriteLine("Нажмите клавишу для выбора раздела");
-            Console.WriteLine("F - фабричный метод");
-            Console.WriteLine("A - абстрактрая фабрика");
+            Console.WriteLine("C - порождающие паттерны");
         }
     }
 }

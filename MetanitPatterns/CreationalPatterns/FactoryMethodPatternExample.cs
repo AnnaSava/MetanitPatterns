@@ -8,7 +8,7 @@ namespace MetanitPatterns.CreationalPatterns
 {
     public static class FactoryMethodPatternExample
     {
-        public static void Run()
+        public static void Display()
         {
             Developer dev = new PanelDeveloper("ООО КирпичСтрой");
             House house2 = dev.Create();
