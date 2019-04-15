@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BehavioralPatternsDemo.cs" />
+    <Compile Include="BehavioralPatterns\CommandPattern.cs" />
+    <Compile Include="BehavioralPatterns\CommandPatternExample.cs" />
+    <Compile Include="BehavioralPatterns\CommandPatternMacro.cs" />
+    <Compile Include="BehavioralPatterns\CommandPatternMulti.cs" />
     <Compile Include="BehavioralPatterns\ObserverPattern.cs" />
     <Compile Include="BehavioralPatterns\ObserverPatternExample.cs" />
     <Compile Include="BehavioralPatterns\StrategyPattern.cs" />

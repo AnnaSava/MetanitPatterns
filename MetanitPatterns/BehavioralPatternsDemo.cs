@@ -28,6 +28,13 @@ namespace MetanitPatterns
                     case 'o':
                         ObserverPatternExample.Display();
                         break;
+                    case 'c':
+                        CommandPatternExample.Display();
+                        break;
+                    case 'm':
+                        CommandPatternMulti.Display();
+                        CommandPatternMacro.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -39,6 +46,8 @@ namespace MetanitPatterns
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("S - стратегия");
             Console.WriteLine("O - наблюдатель");
+            Console.WriteLine("C - команда");
+            Console.WriteLine("M - несколько команд");
         }
     }
 }
