@@ -24,6 +24,9 @@ namespace MetanitPatterns
                     case 'c':
                         CreationalPatternsDemo.Run();
                         break;
+                    case 'b':
+                        BehavioralPatternsDemo.Run();
+                        break;
                 }
             }
         }
@@ -32,6 +35,7 @@ namespace MetanitPatterns
         {
             Console.WriteLine("Нажмите клавишу для выбора раздела");
             Console.WriteLine("C - порождающие паттерны");
+            Console.WriteLine("B - поведенческие паттерны");
         }
     }
 }

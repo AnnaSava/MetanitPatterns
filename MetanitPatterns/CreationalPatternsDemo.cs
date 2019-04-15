@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MetanitPatterns
 {
-  public static  class CreationalPatternsDemo
+    public static class CreationalPatternsDemo
     {
         public static void Run()
         {
