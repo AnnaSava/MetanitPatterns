@@ -25,6 +25,9 @@ namespace MetanitPatterns
                     case 's':
                         StrategyPatternExample.Display();
                         break;
+                    case 'o':
+                        ObserverPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -35,6 +38,7 @@ namespace MetanitPatterns
         {
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("S - стратегия");
+            Console.WriteLine("O - наблюдатель");
         }
     }
 }
