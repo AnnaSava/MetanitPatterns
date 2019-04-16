@@ -41,6 +41,10 @@ namespace MetanitPatterns
                     case 'i':
                         IteratorPatternExample.Display();
                         break;
+                    case 'a':
+                        NoStatePatternExample.Display();
+                        StatePatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -56,6 +60,7 @@ namespace MetanitPatterns
             Console.WriteLine("M - несколько команд");
             Console.WriteLine("T - шаблонный метод");
             Console.WriteLine("I - итератор");
+            Console.WriteLine("A - состояние");
         }
     }
 }

@@ -52,6 +52,8 @@
     <Compile Include="BehavioralPatterns\IteratorPatternExample.cs" />
     <Compile Include="BehavioralPatterns\ObserverPattern.cs" />
     <Compile Include="BehavioralPatterns\ObserverPatternExample.cs" />
+    <Compile Include="BehavioralPatterns\StatePattern.cs" />
+    <Compile Include="BehavioralPatterns\StatePatternExample.cs" />
     <Compile Include="BehavioralPatterns\StrategyPattern.cs" />
     <Compile Include="BehavioralPatterns\StrategyPatternExample.cs" />
     <Compile Include="BehavioralPatterns\TemplateMethodPattern.cs" />
