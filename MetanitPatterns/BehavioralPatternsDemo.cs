@@ -35,6 +35,9 @@ namespace MetanitPatterns
                         CommandPatternMulti.Display();
                         CommandPatternMacro.Display();
                         break;
+                    case 't':
+                        TemplateMethodPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -48,6 +51,7 @@ namespace MetanitPatterns
             Console.WriteLine("O - наблюдатель");
             Console.WriteLine("C - команда");
             Console.WriteLine("M - несколько команд");
+            Console.WriteLine("T - шаблонный метод");
         }
     }
 }
