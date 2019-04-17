@@ -45,6 +45,9 @@ namespace MetanitPatterns
                         NoStatePatternExample.Display();
                         StatePatternExample.Display();
                         break;
+                    case 'h':
+                        ChainOfResponsibilityExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -61,6 +64,7 @@ namespace MetanitPatterns
             Console.WriteLine("T - шаблонный метод");
             Console.WriteLine("I - итератор");
             Console.WriteLine("A - состояние");
+            Console.WriteLine("H - цепочка обязанностей");
         }
     }
 }
