@@ -50,6 +50,8 @@
     <Compile Include="BehavioralPatterns\CommandPatternExample.cs" />
     <Compile Include="BehavioralPatterns\CommandPatternMacro.cs" />
     <Compile Include="BehavioralPatterns\CommandPatternMulti.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPattern.cs" />
+    <Compile Include="BehavioralPatterns\InterpreterPatternExample.cs" />
     <Compile Include="BehavioralPatterns\IteratorPattern.cs" />
     <Compile Include="BehavioralPatterns\IteratorPatternExample.cs" />
     <Compile Include="BehavioralPatterns\ObserverPattern.cs" />

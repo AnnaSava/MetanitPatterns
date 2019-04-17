@@ -48,6 +48,9 @@ namespace MetanitPatterns
                     case 'h':
                         ChainOfResponsibilityExample.Display();
                         break;
+                    case 'n':
+                        InterpreterPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -65,6 +68,7 @@ namespace MetanitPatterns
             Console.WriteLine("I - итератор");
             Console.WriteLine("A - состояние");
             Console.WriteLine("H - цепочка обязанностей");
+            Console.WriteLine("N - интерпретатор");
         }
     }
 }
