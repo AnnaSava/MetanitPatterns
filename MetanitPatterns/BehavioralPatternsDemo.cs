@@ -51,6 +51,9 @@ namespace MetanitPatterns
                     case 'n':
                         InterpreterPatternExample.Display();
                         break;
+                    case 'd':
+                        MediatorPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -69,6 +72,7 @@ namespace MetanitPatterns
             Console.WriteLine("A - состояние");
             Console.WriteLine("H - цепочка обязанностей");
             Console.WriteLine("N - интерпретатор");
+            Console.WriteLine("D - посредник");
         }
     }
 }
