@@ -57,6 +57,9 @@ namespace MetanitPatterns
                     case 'e':
                         MementoPatternExample.Display();
                         break;
+                    case 'v':
+                        VisitorPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -77,6 +80,7 @@ namespace MetanitPatterns
             Console.WriteLine("N - интерпретатор");
             Console.WriteLine("D - посредник");
             Console.WriteLine("E - хранитель");
+            Console.WriteLine("V - посетитель");
         }
     }
 }
