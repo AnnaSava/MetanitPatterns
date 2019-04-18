@@ -68,6 +68,7 @@
     <Compile Include="BehavioralPatterns\TemplateMethodPatternExample.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern.cs" />
     <Compile Include="BehavioralPatterns\VisitorPatternExample.cs" />
+    <Compile Include="StructuralPatternsDemo.cs" />
     <Compile Include="CreationalPatternsDemo.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPatternExample.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPattern.cs" />
@@ -86,6 +87,8 @@
     <Compile Include="CreationalPatterns\SingletonThreads.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\DecoratorPattern.cs" />
+    <Compile Include="StructuralPatterns\DecoratorPatternExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
