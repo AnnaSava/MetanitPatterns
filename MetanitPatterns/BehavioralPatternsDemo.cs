@@ -54,6 +54,9 @@ namespace MetanitPatterns
                     case 'd':
                         MediatorPatternExample.Display();
                         break;
+                    case 'e':
+                        MementoPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -73,6 +76,7 @@ namespace MetanitPatterns
             Console.WriteLine("H - цепочка обязанностей");
             Console.WriteLine("N - интерпретатор");
             Console.WriteLine("D - посредник");
+            Console.WriteLine("E - хранитель");
         }
     }
 }
