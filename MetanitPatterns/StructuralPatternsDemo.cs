@@ -31,6 +31,9 @@ namespace MetanitPatterns
                     case 'f':
                         FacadePatternExample.Display();
                         break;
+                    case 'c':
+                        CompositePatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -43,6 +46,7 @@ namespace MetanitPatterns
             Console.WriteLine("D - декоратор");
             Console.WriteLine("A - адаптер");
             Console.WriteLine("F - фасад");
+            Console.WriteLine("C - компоновщик");
         }
     }
 }
