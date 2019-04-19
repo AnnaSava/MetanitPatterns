@@ -91,6 +91,8 @@
     <Compile Include="StructuralPatterns\AdapterPatternExample.cs" />
     <Compile Include="StructuralPatterns\DecoratorPattern.cs" />
     <Compile Include="StructuralPatterns\DecoratorPatternExample.cs" />
+    <Compile Include="StructuralPatterns\FacadePattern.cs" />
+    <Compile Include="StructuralPatterns\FacadePatternExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
