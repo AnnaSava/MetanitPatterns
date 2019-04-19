@@ -25,6 +25,9 @@ namespace MetanitPatterns
                     case 'd':
                         DecoratorPatternExample.Display();
                         break;
+                    case 'a':
+                        AdapterPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -35,6 +38,7 @@ namespace MetanitPatterns
         {
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("D - декоратор");
+            Console.WriteLine("A - адаптер");
         }
     }
 }

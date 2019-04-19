@@ -87,6 +87,8 @@
     <Compile Include="CreationalPatterns\SingletonThreads.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\AdapterPattern.cs" />
+    <Compile Include="StructuralPatterns\AdapterPatternExample.cs" />
     <Compile Include="StructuralPatterns\DecoratorPattern.cs" />
     <Compile Include="StructuralPatterns\DecoratorPatternExample.cs" />
   </ItemGroup>
