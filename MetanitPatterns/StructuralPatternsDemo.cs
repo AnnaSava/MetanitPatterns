@@ -34,6 +34,9 @@ namespace MetanitPatterns
                     case 'c':
                         CompositePatternExample.Display();
                         break;
+                    case 'p':
+                        ProxyPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -47,6 +50,7 @@ namespace MetanitPatterns
             Console.WriteLine("A - адаптер");
             Console.WriteLine("F - фасад");
             Console.WriteLine("C - компоновщик");
+            Console.WriteLine("P - прокси");
         }
     }
 }
