@@ -96,6 +96,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralPatterns\AdapterPattern.cs" />
     <Compile Include="StructuralPatterns\AdapterPatternExample.cs" />
+    <Compile Include="StructuralPatterns\BridgePattern.cs" />
+    <Compile Include="StructuralPatterns\BridgePatternExample.cs" />
     <Compile Include="StructuralPatterns\CompositePattern.cs" />
     <Compile Include="StructuralPatterns\CompositePatternExample.cs" />
     <Compile Include="StructuralPatterns\DecoratorPattern.cs" />
