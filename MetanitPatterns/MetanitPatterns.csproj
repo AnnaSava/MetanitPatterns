@@ -104,6 +104,8 @@
     <Compile Include="StructuralPatterns\DecoratorPatternExample.cs" />
     <Compile Include="StructuralPatterns\FacadePattern.cs" />
     <Compile Include="StructuralPatterns\FacadePatternExample.cs" />
+    <Compile Include="StructuralPatterns\FlyweightPattern.cs" />
+    <Compile Include="StructuralPatterns\FlyweightPatternExample.cs" />
     <Compile Include="StructuralPatterns\ProxyPattern.cs" />
     <Compile Include="StructuralPatterns\ProxyPatternExample.cs" />
   </ItemGroup>

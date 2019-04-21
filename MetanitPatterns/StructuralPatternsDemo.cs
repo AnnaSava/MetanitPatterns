@@ -40,6 +40,9 @@ namespace MetanitPatterns
                     case 'b':
                         BridgePatternExample.Display();
                         break;
+                    case 'l':
+                        FlyweightPatternExample.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -55,6 +58,7 @@ namespace MetanitPatterns
             Console.WriteLine("C - компоновщик");
             Console.WriteLine("P - прокси");
             Console.WriteLine("B - мост");
+            Console.WriteLine("L - приспособленец");
         }
     }
 }
