@@ -75,6 +75,8 @@
     <Compile Include="BehavioralPatterns\TemplateMethodPatternExample.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern.cs" />
     <Compile Include="BehavioralPatterns\VisitorPatternExample.cs" />
+    <Compile Include="SolidPrinciples.cs" />
+    <Compile Include="SOLID\SingleResponsibility.cs" />
     <Compile Include="StructuralPatternsDemo.cs" />
     <Compile Include="CreationalPatternsDemo.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPatternExample.cs" />

@@ -30,6 +30,9 @@ namespace MetanitPatterns
                     case 's':
                         StructuralPatternsDemo.Run();
                         break;
+                    case 'p':
+                        SolidPrinciples.Run();
+                        break;
                 }
             }
         }
@@ -40,6 +43,7 @@ namespace MetanitPatterns
             Console.WriteLine("C - порождающие паттерны");
             Console.WriteLine("B - поведенческие паттерны");
             Console.WriteLine("S - структурные паттерны");
+            Console.WriteLine("P - принципы SOLID");
         }
     }
 }
