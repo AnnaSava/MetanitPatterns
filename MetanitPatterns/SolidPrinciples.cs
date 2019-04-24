@@ -24,7 +24,13 @@ namespace MetanitPatterns
                 {
                     case 's':
                         SingleResponsibility_Report.Display();
+                        Console.WriteLine("--------");
                         SingleResponsibility_MobileStore.Display();
+                        break;
+                    case 'o':
+                        OpenClosed.Display();
+                        Console.WriteLine("--------");
+                        OpenClosed_TemplateMethod.Display();
                         break;
                     case 'x': return;
                 }
@@ -36,6 +42,7 @@ namespace MetanitPatterns
         {
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("S - Принцип единственной обязанности");
+            Console.WriteLine("O - Принцип открытости/закрытости");
         }
     }
 }
