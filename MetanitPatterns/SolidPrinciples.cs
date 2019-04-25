@@ -32,6 +32,10 @@ namespace MetanitPatterns
                         Console.WriteLine("--------");
                         OpenClosed_TemplateMethod.Display();
                         break;
+                    case 'i':
+                        InterfaceSegregation_Message.Display();
+                        InterfaceSegregation_Photo.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -43,6 +47,7 @@ namespace MetanitPatterns
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("S - Принцип единственной обязанности");
             Console.WriteLine("O - Принцип открытости/закрытости");
+            Console.WriteLine("I - Принцип разделения интерфейсов");
         }
     }
 }
