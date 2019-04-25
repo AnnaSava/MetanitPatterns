@@ -32,6 +32,12 @@ namespace MetanitPatterns
                         Console.WriteLine("--------");
                         OpenClosed_TemplateMethod.Display();
                         break;
+                    case 'l':
+                        LiskovSubstitutionProblem_Rectangle.Display();
+                        LiskovSubstitutionProblem_Precondition.Display();
+                        LiskovSubstitutionProblem_Postcondition.Display();
+                        LiskovSubstitutionProblem_Invariant.Display();
+                        break;
                     case 'i':
                         InterfaceSegregation_Message.Display();
                         InterfaceSegregation_Photo.Display();
@@ -47,6 +53,7 @@ namespace MetanitPatterns
             Console.WriteLine("Нажмите клавишу для вывода информации");
             Console.WriteLine("S - Принцип единственной обязанности");
             Console.WriteLine("O - Принцип открытости/закрытости");
+            Console.WriteLine("L - Принцип подстановки Лисков");
             Console.WriteLine("I - Принцип разделения интерфейсов");
         }
     }
