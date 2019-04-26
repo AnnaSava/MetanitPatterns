@@ -75,12 +75,14 @@
     <Compile Include="BehavioralPatterns\TemplateMethodPatternExample.cs" />
     <Compile Include="BehavioralPatterns\VisitorPattern.cs" />
     <Compile Include="BehavioralPatterns\VisitorPatternExample.cs" />
+    <Compile Include="Misc\FluentBuilderPattern.cs" />
     <Compile Include="SolidPrinciples.cs" />
     <Compile Include="SOLID\DependencyInversion.cs" />
     <Compile Include="SOLID\InterfaceSegregation.cs" />
     <Compile Include="SOLID\LiskovSubstitution.cs" />
     <Compile Include="SOLID\OpenClosed.cs" />
     <Compile Include="SOLID\SingleResponsibility.cs" />
+    <Compile Include="MiscPatternsDemo.cs" />
     <Compile Include="StructuralPatternsDemo.cs" />
     <Compile Include="CreationalPatternsDemo.cs" />
     <Compile Include="CreationalPatterns\AbstractFactoryPatternExample.cs" />
