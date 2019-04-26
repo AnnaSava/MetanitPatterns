@@ -76,6 +76,7 @@
     <Compile Include="BehavioralPatterns\VisitorPattern.cs" />
     <Compile Include="BehavioralPatterns\VisitorPatternExample.cs" />
     <Compile Include="SolidPrinciples.cs" />
+    <Compile Include="SOLID\DependencyInversion.cs" />
     <Compile Include="SOLID\InterfaceSegregation.cs" />
     <Compile Include="SOLID\LiskovSubstitution.cs" />
     <Compile Include="SOLID\OpenClosed.cs" />

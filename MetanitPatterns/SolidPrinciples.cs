@@ -42,6 +42,9 @@ namespace MetanitPatterns
                         InterfaceSegregation_Message.Display();
                         InterfaceSegregation_Photo.Display();
                         break;
+                    case 'd':
+                        DependencyInversion.Display();
+                        break;
                     case 'x': return;
                 }
                 Console.ReadKey();
@@ -55,6 +58,7 @@ namespace MetanitPatterns
             Console.WriteLine("O - Принцип открытости/закрытости");
             Console.WriteLine("L - Принцип подстановки Лисков");
             Console.WriteLine("I - Принцип разделения интерфейсов");
+            Console.WriteLine("D - Принцип инверсии зависимостей");
         }
     }
 }
